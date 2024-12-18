@@ -1284,6 +1284,12 @@ button:hover {
         right: 20px;
         padding: 10px;  
     }
+    nav .navbar .logo{
+        height: 45px;
+        width: 25%;
+        margin-left: 10px;
+        background-size: contain;
+    }
     nav ul li a:hover{
         border-radius: 10px;
         background-color: var(--secondry);
@@ -1312,10 +1318,12 @@ button:hover {
         width: 100%;
         margin-top: 15px;
     }
-    .uses{
-    height: 90vh;
-    background-image: url(../Media/image5.png);
-}
+.uses{
+        height: 40vh;
+        background-image: url(../Media/image5.png);
+        background-size: contain;
+        margin: auto;
+    }
     .use1{
         width: 90%;
         top: 8%;
@@ -1361,7 +1369,7 @@ button:hover {
 
     }
     .chocolate {
-        width: 50%;
+        width: 65%;
         margin: 20px;
     }
     .contacts{
@@ -1428,10 +1436,9 @@ button:hover {
         right: 1rem;
     }
     .img3{
-        height: 10vh;
-        width: 70%;
+        width: 100%;
         margin-left: 2rem;
-        background-size: cover;
+        background-size: contain;
     }
     .font3 i{
         position: relative;
@@ -1472,6 +1479,16 @@ button:hover {
     }
     .mcircle{
         margin-left: 3rem;
+    }
+    .circle3{
+        height: 20vh;
+        width: 26%;
+        background-size: contain;
+    }
+    .circle4{
+        height: 20vh;
+        width: 28%;
+        background-size: contain;
     }
     .mainline{
         display: grid;
